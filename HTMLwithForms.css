@@ -1,0 +1,92 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+
+}
+body{
+    background-color: #F0ECE3;
+}
+.htmllayout{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 50px 4fr;
+    padding: 10px;
+    row-gap: 15px;
+}
+header{
+    background-color: #C7B198;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+.alertbox{
+    display: none;
+    border-radius: 15px;
+    margin: 10px auto 0 auto;
+    width: 500px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #354259;
+    color: #fff;
+}
+.frm{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px #bab7b7;
+}
+.frm input{
+
+    border-radius: 10px;
+    height:30px;
+    border: 2px solid #808080;
+    text-align: center;
+    box-shadow: 2px 1px 5px #bab7b7;
+}
+.frm input:hover{
+    cursor: pointer;
+    background-color:#ecebeb ;
+    font-weight: 700;
+}
+textarea{
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #808080;
+    box-shadow: 2px 1px 5px #bab7b7;
+}
+textarea:hover{
+    cursor: pointer;
+    background-color:#ecebeb;
+    font-weight: 700;
+}
+.btnoutside{
+    display: flex;
+    justify-content: space-evenly;
+}
+.btninside{
+    background-color: #354259;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    transition-duration: 2s;
+    box-shadow: 5px 5px 10px #bab7b7;
+}
+.btninside:hover{
+    cursor: pointer;
+    transform: scale(0.8);
+
+}
