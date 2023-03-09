@@ -24,16 +24,6 @@ const alertTime=()=>{
 }
 
 
-// const checking=(name,age,phoneno)=>{
-//     if(age<18 || age>58){
-//         alertbox.innerText=`${name} Required age is 18-58👀`
-//     }
-//     if(isNaN(phoneno)){
-//         alertbox.innerText=`${name} please enter the Number❌`
-//     }
-//     console.log(phoneno.toString().length)
-// }
-
 
 const alertboxclose=alertbox.style.display="none"
 const inputname=document.getElementById("inputname")
@@ -45,9 +35,8 @@ const inputphoneno=document.getElementById("inputphoneno")
 
 submitbtn.addEventListener("click",()=>{    
 
-    // console.log(inputname);
+  
     alertbox.style.display="flex";
-    // checking(inputname,inputage,inputphoneno)
     if(inputname.value==""||inputage.value==""||inputdate.value==""||inputaddress.value==""||inputphoneno.value==""){
         alertbox.innerText="❌Please fill all the fields❌"
         
