@@ -14,23 +14,22 @@ body{
 .htmllayout{
     display: grid;
     grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 50px 4fr;
-    padding: 10px;
-    row-gap: 15px;
+    grid-template-rows: 1fr 50px 3fr;
+    padding: 0.8rem;
+    row-gap: 1rem;
 }
 header{
     background-color: #C7B198;
     text-align: center;
     border-radius: 10px;
-    padding: 20px;
-    font-size: 25px;
+    padding: 1em;
+    font-size: 2em;
 }
 .alertbox{
     display: none;
     border-radius: 15px;
-    margin: 10px auto 0 auto;
-    width: 500px;
-    /* display: flex; */
+    margin: 0.3rem auto 0 auto;
+    width: 30.5rem;
     justify-content: center;
     align-items: center;
     background-color: #354259;
@@ -40,18 +39,18 @@ header{
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    row-gap: 17px;
+    row-gap: 1.5em;
     text-align: center;
     background-color: #FFF;
-    padding: 20px;
-    width: 500px;
+    padding: 1.2em;
+    width: 30.5rem;
     margin: auto;
     box-shadow: 5px 5px 10px #bab7b7;
 }
 .frm input{
 
     border-radius: 10px;
-    height:30px;
+    height:2.1rem;
     border: 2px solid #808080;
     text-align: center;
     box-shadow: 2px 1px 5px #bab7b7;
@@ -81,7 +80,7 @@ textarea:hover{
     color: #FFF;
     border: none;
     border-radius: 5px;
-    padding: 4px;
+    padding: 0.5rem;
     transition-duration: 2s;
     box-shadow: 5px 5px 10px #bab7b7;
 }
