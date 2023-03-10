@@ -52,7 +52,8 @@ submitbtn.addEventListener("click",()=>{
     else if(isNaN(inputphoneno.value)){
         alertbox.innerText=`❌${inputname.value} please enter the Number❌`
     }
-    else if(inputphoneno.toString().length!==10){
+    else if(inputphoneno.value.toString().length!=10){
+        console.log(inputphoneno.value.toString().length);
         alertbox.innerText=`❌${inputname.value} it's a Incorrect phone number❌`
     }
     else{
