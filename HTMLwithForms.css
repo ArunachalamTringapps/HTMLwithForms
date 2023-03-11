@@ -48,27 +48,35 @@ header{
     box-shadow: 5px 5px 10px #bab7b7;
 }
 .frm input{
-
-    border-radius: 10px;
+    border: none;
+    border-bottom-style: groove;
     height:2.1rem;
-    border: 2px solid #808080;
     text-align: center;
-    box-shadow: 2px 1px 5px #bab7b7;
+
 }
 .frm input:hover{
     cursor: pointer;
     background-color:#ecebeb ;
     font-weight: 700;
 }
+.frm input:focus{
+    outline: none;
+    background-color: #ecebeb;
+    font-weight: 700; 
+}
 textarea{
-    border-radius: 10px;
+    border: none;
+    border-bottom-style: groove;
     text-align: center;
-    border: 2px solid #808080;
-    box-shadow: 2px 1px 5px #bab7b7;
 }
 textarea:hover{
     cursor: pointer;
     background-color:#ecebeb;
+    font-weight: 700;
+}
+textarea:focus{
+    outline: none;
+    background-color: #ecebeb;
     font-weight: 700;
 }
 .btnoutside{
